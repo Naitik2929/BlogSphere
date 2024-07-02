@@ -1,4 +1,4 @@
-# BLOG SPHERE APPLICATION
+# BLOG SPHERE
 
 This application is designed for those who love writing and sharing their thoughts. Users can read blog posts, log in or sign up to like posts, and staff/admin can manage posts and users.
 
@@ -156,8 +156,6 @@ docker push your-dockerhub-username/your-image-name
 - Package your app with Electron Packager: This will generate a folder named PostShare-win32-x64 in the project root directory, which contains the Windows executable (.exe) file.
   ```bash
   electron-packager ./ PostShare --platform=win32
-  ```
+  ```mm
   Please replace the `PostShare` with your actual app name if it's different.
 - Delete all folders inside `PostShare-win32-x64/resources/app` except for the `dist` folder. Note: Only delete folders, do not delete any files.
-# BlogSphere
-# BlogSphere
